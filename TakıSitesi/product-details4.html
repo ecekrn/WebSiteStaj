@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <title>Bijou</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-white py-4 fixed-top mx-0" style="border-radius: 0; margin-top: 0; margin: 0; height: 65px;">
+        <div class="container">
+  
+          <a class="navbar-brand d-flex justify-content-between align-items-center order-lg-0" href="index.html">
+            <img src="images/9027104_sketch_logo_thin_icon.png" alt="logo icon" height="40px">
+            <span class="text-uppercase fw-lighter ms-2">Bijou</span>
+  
+          </a>
+  
+          <div class="order-lg-2 nav btns"> 
+            <a href="cart.html">
+              <button type="button" class="btn position-relative m-1">
+                <i class="fa fa-shopping-basket" aria-hidden="true"></i>
+             </button>
+            </a>
+  
+            <a href="log-in.html">
+  
+            <button type="button" class="btn position-relative m-1"  >
+               <i class="fa fa-user-circle" aria-hidden="true"></i>
+            </button>
+                  
+            </a>
+  
+  
+            </div>
+  
+  
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+  
+                 <div class="collapse navbar-collapse order-lg-1  " style=" border-radius:0; " id="navMenu">
+                   <ul class="nav mx-auto text-center">
+                      <li class="nav-item px-2 py-2">
+                        <a class="nav-link text-uppercase text-dark fw-lighter" href="index.html">Home</a>
+                      </li>
+  
+                      <li class="nav-item px-2 py-2">
+                        <a class="nav-link text-uppercase text-dark fw-lighter" href="collection.html">Collection</a>
+  
+                      </li>
+  
+                      <li class="nav-item px-2 py-2">
+                        <a class="nav-link text-uppercase text-dark fw-lighter" href="locations.html">Locations</a>
+  
+                      </li>
+  
+                      <li class="nav-item px-2 py-2">
+                        <a class="nav-link text-uppercase text-dark fw-lighter" href="about.html">About</a>
+  
+                      </li>
+  
+                      <li class="nav-item px-2 py-2">
+                        <a class="nav-link text-uppercase text-dark fw-lighter" href="contact.html">Contact</a>
+  
+                      </li>
+  
+                    </ul>
+  
+                   </div>
+  
+  
+          </div>
+      </nav>
+
+
+
+
+    <div class="container">
+        <div class="row" style="margin-top: 200px;">,
+            <div class="col-md-5 offset-md-2">
+                <div class="home-tags ">
+                    <a href="index.html" class="text-secondary fw-light text-decoration-none">Home</a> /
+                    <a href="collection.html" class="text-secondary fw-light text text-decoration-none">Collection</a> /
+                    <span class="fw-lighter">I'm a Product</span>
+
+
+                </div>
+
+                <div class="product-info my-4">
+                    <img src="images/necklace-hover-2.jpg" width="100%" height="500px" class="rounded float-start mb-4" alt="product-details"/>
+            
+                <p class="fw-lighter" style="font-size: 14px;"><br>
+                    &nbsp; I'm a product description. I'm a great place to include more information about your product.Buyers like to know what they're getting before they purchase.
+                </p> 
+                </div>
+
+                            
+                       
+            </div>
+
+            <div class="col-md-4">
+
+                <div class="row">
+                    <span class="fw-lighter fs-4 pt-5">I'm a Product</span>
+                    <span class="fw-lighter pb-4 fs-6">SKU : 23442</span>
+                    <span class="fw-lighter">Price : <b>$ 19.00</b></span>
+                    <div class="d-flex">
+
+                        <input type="number" class ="my-3 px-2"style="width:65px;height:40px;" value="0" >
+                    </div>
+
+                    <div class="d-flex ">
+                        <button class="btn btn-primary abcd w-100 mx-1" type="button" id="addToCart">
+                            Add to cart </button>
+                        <button type="button" class="btn position-relative mx-1 text-end heart-btn"  >
+                            <i class="fa-regular fa-heart text dark" aria-hidden="true"></i>
+                        </button>                        
+                    </div>
+
+                    <div class="d-flex my-2">
+                        <button class="btn btn-dark text-white buy-btn mx-1" type="button">Buy Now</button>
+                    </div>
+
+
+                    <div class="accordion" id="accordionExample">
+                      <div class="accordion-item" style="border: 0;">
+                        <h2 class="accordion-header" id="headingOne">
+                          <button class="accordion-button fw-lighter " style="font-size: 14px;" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" 
+                          aria-expanded="true" aria-controls="collapseOne">
+                            PRODUCT INFO
+                          </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                          <div class="accordion-body" mx-1>
+                            <p class="fw-lighter" style="font-size: 14px;">
+                              I'm a product detail. I'm a great place to add more information about your product such as sizing, material, care and cleaning instructions.
+                               This is also a great space to write what makes this product special and how your customers can benefit from this item.
+                                Buyers like to know what they're getting before they purchase, so give them as much information as possible so they can buy with confidence and certainty.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <hr class="text-dark" style="
+                        background-color: #000;
+                        height: 1px;
+                        width: 100%;
+                        margin: 0 auto;
+                        margin-top: 20px;
+                        opacity: .50;">
+
+                      
+                      <div class="accordion-item" style="border: 0;">
+                        <h2 class="accordion-header" id="headingTwo">
+                          <button class="accordion-button collapsed fw-lighter" style="font-size: 14px;"type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                           aria-expanded="false" aria-controls="collapseTwo">
+                          RETURN AND REFUND POLICY
+                          </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                          <div class="accordion-body">
+                            <p class="fw-lighter" style="font-size: 14px;">
+                              I'm a Return and Refund policy. 
+                              I'm a great place to let your customers know what to do in case they are dissatisfied with their purchase. 
+                              Having a straightforward refund or exchange policy is a great way to build trust and reassure your customers
+                              that they can buy with confidence.
+
+                            </p>
+                          
+                          </div>
+                        </div>
+                      </div>
+
+
+                        <a href="#" class="social-btn">
+                            <button class="border-0" style="background-color: transparent;">
+                                <img src="images/whatsapp.png" alt="facebook-icon" height="20px" width="20px">
+                            </button>
+                        </a>
+
+                        <a href="#" class="social-btn">
+                            <button class="border-0" style="background-color: transparent;">
+                                <img src="images/facebook-icon.png" alt="facebook-icon" height="20px" width="20px">
+                            </button>
+                        </a>
+
+                        <a href="#" class="social-btn">
+                            <button class="border-0" style="background-color: transparent;">
+                                <img src="images/x-icon.png" alt="facebook-icon" height="20px" width="20px">
+                            </button>
+                        </a>
+
+                        <a href="#" class="social-btn">
+                            <button class="border-0" style="background-color: transparent;">
+                                <img src="images/pinterest-icon.png" alt="facebook-icon" height="20px" width="20px">
+                            </button>
+                        </a>
+
+                        
+
+
+                    </div>
+
+
+
+                    
+                </div>
+
+
+            </div>
+
+
+
+
+
+
+
+
+
+
+    
+        </div>
+
+        
+
+
+
+
+
+
+
+
+    </div>
+
+    <footer class="bg-light">
+        <div class="container p-4 pb-0">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="footer-adress text-start d-flex" >
+                <p class="text-start p-3 text-secondary">
+                  © 2035 by Bijou. <br>
+                  <span class="text-secondary " style="text-decoration-line: none ;" >All rights reserved</span>
+                </p>
+              
+    
+                <section class="mt-3">
+                
+                  <a class="btn btn-floating m-1">
+                    <i class="fa-brands fa-facebook"></i>
+                  </a>
+            
+                 
+                  <a class="btn btn-floating m-1">
+                    <i class="fa-brands fa-x-twitter"></i>
+                  </a>
+            
+              
+                  <a class="btn btn-floating m-1"
+                    href="#!"
+                    role="button"
+                    ><i class="fab fa-instagram"></i
+                  ></a>
+             
+                </section>
+    
+    
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="text-center mt-3">
+                <img src="images/9027104_sketch_logo_thin_icon.png" alt="logo" width="50px" >
+
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="text-end mt-4">
+                <img src="images/ag-logo.png" alt="logo" width="150px" >
+
+              </div>
+            </div>
+
+            
+            
+          </div>
+
+         
+
+
+          </div>
+         
+        </div>
+
+      
+    
+      </footer>
+
+
+    <!-- JavaScript kodu -->
+  
+
+
+    
+    
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"
+        integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa"
+        crossorigin="anonymous"></script>
+
+    
+
+       
+
+      
+
+
+</body>
+</html>
